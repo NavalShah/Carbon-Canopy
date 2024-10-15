@@ -1,0 +1,106 @@
+html
+{
+font-family: 'Figtree';
+background-color: #89a7d6;
+display: grid;
+align-items: center;
+place-self: center;
+}
+
+input{
+	background-color: rgba(255,255,255,0.4);
+}
+
+h1{
+	font-family: 'Londrina Sketch';
+}
+
+option{
+	background-color: rgba(255,255,255,0.4);
+
+}
+body{
+	display: block;
+	align-items: center;
+	place-self: center;
+}
+
+button{
+	background-color: rgba(255,255,255,0.4);
+	background-color: #023047;
+	color: white;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+.num
+{
+	width: 10ch;
+}
+
+form{
+	align-items: center;
+	place-self: center;
+	border-radius: 10px;
+}
+
+
+.power
+{
+	width: 7ch;
+	text-align: right;
+}
+
+.fieldSet
+{
+	display: grid;
+	place-self: center;
+}
+
+table
+{
+	border: 2px solid black;
+	display: grid;
+	place-self: center;
+	align-items: center;
+}
+
+tbody{
+	display: grid;
+	place-self: center;
+	align-items: center;
+}
+
+th,td
+{
+	border-bottom: 1px solid #DDD;
+}
+
+tr:hover
+{
+	background-color: #B58F8F !important;
+}
+
+tr:nth-child(even) 
+{
+	background-color: #478778;
+	color: white;
+	
+}
+
+select 
+{
+    width: 20ch;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+	background-color: rgba(255,255,255,0.4);
+}
+
+input
+{
+    border: 1px solid black;
+    border-radius: 4px;
+	padding: 5px;
+}
